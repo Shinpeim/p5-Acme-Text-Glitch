@@ -36,7 +36,7 @@ sub glitch {
 
     my @glitched_chars = map {
         my $glitch_char = $glitch_chars[int(rand(scalar @glitch_chars))];
-        my $glitch_count = int(rand($self->glitch_level));
+        my $glitch_count = int(rand($self->glitch_level + 1));
         my $glitcher = "";
         $glitcher .= $glitch_char for (1..$glitch_count);
         $glitcher.$_;
