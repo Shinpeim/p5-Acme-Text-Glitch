@@ -7,7 +7,8 @@ SYNOPSIS
      use Encode;
 
      my $tg = Acme::Text::Glitch->new;
-     my $utf8_flagged_string = $tg->glitch('glitch me');
+     my $glitched_string = $tg->glitch('glitch me');
+     pritn encode('utf8',$glitched_string);
 
 DESCRIPTION
     Ȁcme̐::͔Të́xtͬ::Gl̏ĩțc̻h ̇creạte g͎l̀itch̊e͍ḍ
@@ -26,10 +27,10 @@ METHODS
     accessor to glitch_level.
 
   glitch
-     my $glitched_text = $tg->glitch($utf8_flagged_string);
+     my $glitched_string = $tg->glitch($string);
 
   unglitch
-     my $unglitched_text = $tg->unglitch($glitched_text);
+     my $unglitched_string = $tg->unglitch($glitched_string);
 
 AUTHOR
     Shinpei Maruyama <shinpeim@gmail.com>

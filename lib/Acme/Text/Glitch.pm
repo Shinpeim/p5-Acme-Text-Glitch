@@ -65,7 +65,8 @@ Acme̳::͏Teͪxt::͌G̨l̼i̸t͑ch̆ -ͣ ̈́Ǵlit̒ch yo̶ur ́t͓e̾x͇t͂ lik
  use Encode;
 
  my $tg = Acme::Text::Glitch->new;
- my $utf8_flagged_string = $tg->glitch('glitch me');
+ my $glitched_string = $tg->glitch('glitch me');
+ pritn encode('utf8',$glitched_string);
 
 =head1 DESCRIPTION
 
@@ -88,11 +89,11 @@ accessor to glitch_level.
 
 =head2 glitch
 
- my $glitched_text = $tg->glitch($utf8_flagged_string);
+ my $glitched_string = $tg->glitch($string);
 
 =head2 unglitch
 
- my $unglitched_text = $tg->unglitch($glitched_text);
+ my $unglitched_string = $tg->unglitch($glitched_string);
 
 =head1 AUTHOR
 
