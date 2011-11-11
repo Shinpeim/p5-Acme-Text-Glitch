@@ -1,0 +1,17 @@
+NAME
+    Acme::Text::Glitch -
+
+SYNOPSIS
+      use Acme::Text::Glitch;
+
+DESCRIPTION
+    Acme::Text::Glitch is
+
+AUTHOR
+    Shinpei Maruyama <shinpeim@gmail.com>
+
+SEE ALSO
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
