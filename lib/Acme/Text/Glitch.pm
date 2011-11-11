@@ -79,6 +79,9 @@ __END__
 
 ̣̣a̯ĉc͌͌e͙ssor͋ ̍̍to̊̊ ͆ĝli͈͈t̰c̦h͑_͏͏ĺe̤̤v̉̉el͚͚.
 
+=head2 glitch
+
+ $́́t͆g-̼̼>̀gͣͣlͫͫi̔̔tc̝h̅(͟$u͚tͤͤfͭͭ8͉͉_̚flͭa͘͘gg͜ed̠_̲s͉͉t͂r̵̵i̝ngͥͥ)̠̠;
 
 =head1 AUTHOR
 

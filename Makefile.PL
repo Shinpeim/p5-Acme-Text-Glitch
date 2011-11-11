@@ -6,6 +6,7 @@ readme_markdown_from 'lib/Acme/Text/Glitch.pm';
 readme_pod_from 'lib/Acme/Text/Glitch.pm';
 githubmeta;
 
+requires 'Carp';
 
 tests 't/*.t';
 author_tests 'xt';
